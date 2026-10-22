@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <queries><package android:name="cab.snapp.passenger"/><package android:name="com.aparat.filimo"/><package android:name="com.mobiliha.badesaba"/><package android:name="com.whatsapp"/><intent><action android:name="android.speech.RecognitionService"/></intent><intent><action android:name="android.intent.action.TTS_SERVICE"/></intent></queries>
+    <application android:allowBackup="false" android:label="مهرینه" android:theme="@style/Theme.Mehrineh" android:supportsRtl="true" android:usesCleartextTraffic="false">
+        <activity android:name=".MainActivity" android:exported="true" android:windowSoftInputMode="adjustResize"><intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter></activity>
+    </application>
+</manifest>
